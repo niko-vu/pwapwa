@@ -26,15 +26,20 @@ module.exports = () => {
         title: 'J.A.T.E'
       }),
 
-      new InjectManifest(),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: './src-sw.js'
+      }),
       new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
         name: 'Just Another Text Editor',
         short_name: 'J.A.T.E.',
         description: 'Edit your text in-browser!',
         background_color: '#d0dcc7',
         theme_color: '#d0dcc7',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
