@@ -1,23 +1,28 @@
-# pwapwa
+# PWAPWA
+
+## Description
+
 A text editor that runs in the browser and is a single-page application which meets the progressive web applications (PWA) criteria.
 
-WHEN I run `npm run start` from the root directory
-THEN I find that my application should start up the backend and serve the client
-WHEN I run the text editor application from my terminal
-THEN I find that my JavaScript files have been bundled using webpack
-WHEN I run my webpack plugins
-THEN I find that I have a generated HTML file, service worker, and a manifest file
-WHEN I use next-gen JavaScript in my application
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I find that the content in the text editor has been retrieved from our IndexedDB
-WHEN I click on the Install button
-THEN I download my web application as an icon on my desktop
-WHEN I load my web application
-THEN I should have a registered service worker using workbox
-WHEN I register a service worker
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
+This assignment was one of the easier ones that I've had to do but I think that's only because I was able to accesss previous in-class assignments and tutoring. I was able to complete filling out the TO-DOs on my own but not without error! Though, I was really relieved to find out that I was only missing one necessary part (my swSRC parameter) for it to run though. I was really motivated by my desire to figure out the TypeError that my terminal kept giving me.
+
+## Installation
+
+Just press the "Install!" button and download it!
+
+The deployed application should look something like this:
+
+![Screenshot of the application.](thing.JPG)
+
+[Click this for the deployed application.](https://shrouded-plains-12257-307f434c1ab0.herokuapp.com/)
+
+## Credits
+
+* I was assisted by Dennis Itua who was tutoring me and helping me define swSRC by linking it to my src-sw.js file.
+* I did not author the starter code and I cloned it from the repository, [cautious-meme](https://github.com/coding-boot-camp/cautious-meme). This starter code is found widely throughout my repository.
+* I referenced this [stack overflow forum](https://stackoverflow.com/questions/61834789/throw-new-typeerrorinvalid-schema-configuration-name-is-not) for my schema configurations.
+* I sourced code from [PWA Workshop](https://pwa-workshop.js.org/5-pwa-install/#installing-the-pwa) for my install.js file.
+
+## License
+
+N/a
